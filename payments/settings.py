@@ -122,15 +122,15 @@ if DEBUG:
         os.path.join(os.path.dirname(BASE_DIR), "static", "static"),
     )
 
-PAYTM_MERCHANT_KEY = "!BjO8LjF3aHRGFi@"
-PAYTM_MERCHANT_ID = "AijDKf96668854354789"
+PAYTM_MERCHANT_KEY = ""
+PAYTM_MERCHANT_ID = ""
 HOST_URL = "http://localhost:8000"
 PAYTM_CALLBACK_URL = "/paytm/response/"
 PAYTM_WEBSITE = 'WEBSTAGING'
 
 if DEBUG:
-    PAYTM_MERCHANT_KEY = "jO8LjF3aHRGFi@"
-    PAYTM_MERCHANT_ID = "AijDKf96668854354789"
+    PAYTM_MERCHANT_KEY = ""
+    PAYTM_MERCHANT_ID = ""
     PAYTM_WEBSITE = 'WEBSTAGING'
     
     HOST_URL = 'http://localhost:8000'
