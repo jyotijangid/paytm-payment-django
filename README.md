@@ -1,5 +1,5 @@
 # paytm-payment-django
-A payment portal is made in Django in python which completes the payment through Paytm portal.<br/>
+A payment portal is made in Django in python which completes the payment through Paytm.<br/>
 
 Your Credentials<br/>
 PAYTM_MERCHANT_KEY=  "<YOUR-PAYTM-MERCHANT-KEY>"<br/>
